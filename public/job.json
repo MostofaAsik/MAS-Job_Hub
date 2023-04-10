@@ -1,0 +1,22 @@
+[
+    {
+        "categoryLogo": "https://media.istockphoto.com/id/969456552/photo/internet-loan-e-commerce-money-badge.jpg?s=1024x1024&w=is&k=20&c=Mhr_WjQhoHHUgKVW3Ag3S8Vu7iSbFeMFOlHvP_M4pis=",
+        "categoryName": "Account & Finance",
+        "jobsAvailable": 300
+    },
+    {
+        "categoryLogo": "https://media.istockphoto.com/id/1409980587/photo/3d-render-of-light-bulb-isolated-backgroundwith-clipping-path.jpg?s=1024x1024&w=is&k=20&c=IOdnXB6MtHC5N2lhNbhZdwoRIbPWjvAxSf4JY3R5zOI=",
+        "categoryName": "Creative Design",
+        "jobsAvailable": 100
+    },
+    {
+        "categoryLogo": "https://media.istockphoto.com/id/1350454925/photo/director-icon.jpg?s=1024x1024&w=is&k=20&c=WUkVwZACWFDelHF-FyXOdSJzBwVE5byDXcjATXpWPSU=",
+        "categoryName": "Marketing & Sales",
+        "jobsAvailable": 150
+    },
+    {
+        "categoryLogo": "https://media.istockphoto.com/id/1138591104/photo/custom-design.jpg?s=1024x1024&w=is&k=20&c=OVg2O3_RfqLckq9CLfJGj0erqCq4rlhE4VIYs_GTKI0=",
+        "categoryName": "Engineering Job",
+        "jobsAvailable": 200
+    }
+]
