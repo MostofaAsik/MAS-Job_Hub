@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Blog from './components/Blog/Blog';
+import Statistics from './components/Statistics/Statistics';
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: 'blog',
         element: <Blog></Blog>
+      },
+      {
+        path: 'statistics',
+        element: <Statistics></Statistics>
       }
     ]
   }
