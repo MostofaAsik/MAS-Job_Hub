@@ -3,7 +3,7 @@ import './SingleJob.css'
 
 const SingleJob = ({ job }) => {
     const { categoryLogo, categoryName, jobsAvailable } = job
-    console.log(job);
+
     return (
         <div>
             <div className='mb-4'>
