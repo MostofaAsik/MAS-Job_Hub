@@ -5,7 +5,7 @@ import { Link, useRouteError } from 'react-router-dom'
 
 
 const ErrorPage = () => {
-    const { error, status } = useRouteError
+    const { error, status } = useRouteError()
     return (
         <div>
             <section className='flex items-center h-screen p-16 bg-gray-100 text-gray-900'>
