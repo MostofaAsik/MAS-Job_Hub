@@ -11,6 +11,7 @@ const Home = () => {
             <section className='pl-3 pr-3  md:pl-16 md:pr-16 mt-10'>
                 <JobCategory></JobCategory>
             </section>
+
         </div>
 
 
