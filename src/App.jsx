@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/Header/Header'
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
   return (
     <div className="App">
 
-      <h1 className='text-3xl text-center'>Mostofa Asik</h1>
+      <Header></Header>
     </div>
   )
 }
