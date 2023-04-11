@@ -5,12 +5,12 @@ import { useLoaderData, useParams } from 'react-router-dom';
 
 const JobDetails = () => {
     const data = useLoaderData()
-    console.log(data);
+    // console.log(data);
 
     const id = useParams().id
-    console.log(id);
+    // console.log(id);
     const targetData = data.find(data => data.id == id)
-    console.log(targetData);
+    // console.log(targetData);
 
     const { educational_requirement, email, experience, job_description, job_responsibilities, location, phone, salary, title } = targetData
 

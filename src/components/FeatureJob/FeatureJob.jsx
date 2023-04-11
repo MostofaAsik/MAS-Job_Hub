@@ -3,7 +3,7 @@ import './FeatureJob.css'
 import { Link, Navigate, useLoaderData, useNavigate } from 'react-router-dom';
 
 const FeatureJob = ({ job }) => {
-    console.log(job);
+    // console.log(job);
     const { title, img_url, logo_title, location, salary, id } = job;
 
     const navigate = useNavigate()
