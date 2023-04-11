@@ -29,7 +29,7 @@ const Home = () => {
                 {/* 4 data  */}
 
                 <div className={seeall === true ? "hidden" : ""}>
-                    <div className='grid grid-cols-2 gap-6'>
+                    <div className='grid grid-cols-1  md:grid-cols-2 gap-6'>
                         {
                             sliceJob.map(job => <FeatureJob
                                 key={job.id}
@@ -40,7 +40,7 @@ const Home = () => {
                 </div>
                 {/* 6 data  */}
                 <div className={seeall === false ? "hidden" : ""}>
-                    <div className='grid grid-cols-2 gap-6'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                         {
                             jobs.map(job => <FeatureJob
                                 key={job.id}
