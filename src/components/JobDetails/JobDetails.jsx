@@ -1,19 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import './JobDetails.css'
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
+import { addToDb } from '../../utils/fakeDb';
 
 
 const JobDetails = () => {
     const data = useLoaderData()
     // console.log(data);
 
-    const id = useParams().id
+    const jobid = useParams().id
     // console.log(id);
-    const targetData = data.find(data => data.id == id)
-    // console.log(targetData);
+    const targetData = data.find(data => data.id == jobid)
+    console.log(targetData);
 
-    const { educational_requirement, email, experience, job_description, job_responsibilities, location, phone, salary, title } = targetData
+    const { educational_requirement, email, experience, job_description, job_responsibilities, location, phone, salary, title, id } = targetData
 
+
+    const handleAddToCart = (id) => {
+        console.log(id);
+        addToDb(id)
+    }
 
     return (
         <div className='pl-3 pr-3  md:pl-16 md:pr-16'>
@@ -61,8 +67,10 @@ const JobDetails = () => {
 
 
                     </div>
-                    <button className='w-full rounded-lg bg-blue-400 p-2'>Apply Now</button>
+                    <Link to='/appliedjob'>
+                        <button onClick={() => handleAddToCart(id)} className='w-full rounded-lg bg-blue-400 p-2'>Apply Now</button>
 
+                    </Link>
                 </div>
 
             </div>
