@@ -20,7 +20,7 @@ const JoB = ({ job }) => {
 
                 </div>
                 <div className='ml-32'>
-                    <Link to='' >
+                    <Link to={`/job/${id}`} >
                         <button className='bg-blue-300 px-3 py-3 rounded-lg font-semibold'>View Details</button>
                     </Link>
 

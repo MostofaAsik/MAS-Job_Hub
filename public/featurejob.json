@@ -44,7 +44,7 @@
         "phone": "(555) 555-5555"
     },
     {
-        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl8WjvtZ_-HZDAumWC4ngTBMcFukI_ZN-_ow&usqp=CAU",
+        "img_url": "https://i.pcmag.com/imagery/articles/04HUXgEu0I3mdCOejOjQpNE-5.fit_lim.size_1600x900.v1620748900.jpg",
         "title": "Software Engineer",
         "logo_title": "Facebook",
         "id": "3",
@@ -78,8 +78,7 @@
         "phone": "(555) 555-5555"
     },
     {
-        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl8WjvtZ_-HZDAumWC4ngTBMcFukI_ZN-_ow&usqp=CAU",
-        "title": "Marketing Manager",
+        "img_url": "https://seeklogo.com/images/A/akij-venture-logo-16A40BF84C-seeklogo.com.png",
         "logo_title": "Akij Motor",
         "id": "5",
         "salary": "$800 - $1000",
