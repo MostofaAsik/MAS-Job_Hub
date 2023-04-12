@@ -4,7 +4,7 @@ import { Link, Navigate, useLoaderData, useNavigate } from 'react-router-dom';
 
 const FeatureJob = ({ job }) => {
     // console.log(job);
-    const { title, img_url, logo_title, location, salary, id } = job;
+    const { title, img_url, logo_title, location, salary, id, job_type, work_type } = job;
 
     const navigate = useNavigate()
 
@@ -14,8 +14,8 @@ const FeatureJob = ({ job }) => {
             <h1 className='text-2xl font-bold'>{title}</h1>
             <h1>{logo_title}</h1>
             <div className='mt-3'>
-                <button className='p-2 bg-blue-300 rounded-md '>Remote</button>
-                <button className='p-2 bg-blue-300 rounded-md ml-4'>Full time</button>
+                <button className='p-2 bg-blue-300 rounded-md '>{work_type}</button>
+                <button className='p-2 bg-blue-300 rounded-md ml-4'>{job_type}</button>
             </div>
 
             <small className='pr-4 text-xl'> {location}</small>

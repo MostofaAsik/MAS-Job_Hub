@@ -67,10 +67,10 @@ const JobDetails = () => {
 
 
                     </div>
-                    <Link to='/appliedjob'>
-                        <button onClick={() => handleAddToCart(id)} className='w-full rounded-lg bg-blue-400 p-2'>Apply Now</button>
+                    {/* <Link to='/appliedjob'> */}
+                    <button onClick={() => handleAddToCart(id)} className='w-full rounded-lg bg-blue-400 p-2'>Apply Now</button>
 
-                    </Link>
+                    {/* </Link> */}
                 </div>
 
             </div>

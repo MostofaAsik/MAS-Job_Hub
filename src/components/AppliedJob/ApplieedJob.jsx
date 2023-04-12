@@ -21,9 +21,13 @@ const ApplieedJob = () => {
 
     return (
         <div>
+
+
+
             <div className='pl-3 pr-3  md:pl-16 md:pr-16'>
                 <h3 className='text-4xl text-center font-bold mt-2 mb-8'>Aplied Jobs</h3>
             </div>
+
             <div className='pl-3 pr-3  md:pl-16 md:pr-16 mb-10'>
                 {
                     jobCart.map(job => <JoB
