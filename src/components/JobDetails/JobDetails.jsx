@@ -70,7 +70,7 @@ const JobDetails = () => {
                     {/* <Link to='/appliedjob'> */}
                     <button onClick={() => handleAddToCart(id)} className='w-full rounded-lg bg-blue-400 p-2'>Apply Now</button>
 
-                    {/* </Link> */}
+                                                                                                        */}
                 </div>
 
             </div>
